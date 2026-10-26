@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>market place bening,product card</h1>
+      <nav>
+        <a href="product">product</a>
+        <a id="kontak">kontak</a>
+        <a id="keranjang"> keranjang (<span id="cart-cont">0</span>)</a>
+      </nav>
+    </header>
+    <main>
+      <div class="product-grid" id="product">
+        <div class="product-card">
+          <img src="masker_pink.webp" />
+          <h3>masker wajah</h3>
+          <p class="price">Rp 38.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn" data-nama="masker_pink">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="serum.webp" />
+          <h3>serum</h3>
+          <p class="price">Rp 135.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="sunscreen.webp" />
+          <h3>sunscreen</h3>
+          <p class="price">Rp 71.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="sabun_cuci.png" />
+          <h3>sabun cuci muka</h3>
+          <p class="price">Rp 48.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="moiz.jpg" />
+          <h3>moizturizer</h3>
+          <p class="price">Rp 135.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="lip serum.webp" />
+          <h3>lip serum</h3>
+          <p class="price">Rp 89.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="masker skintific.webp" />
+          <h3>masker</h3>
+          <p class="price">Rp 121.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="masker stik.webp" />
+          <h3>masker stik</h3>
+          <p class="price">Rp94.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="micellar.avif" />
+          <h3>micellar water</h3>
+          <p class="price">Rp 81.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn" data-nama="micellar">BELI</button>
+        </div>
+
+        <div class="product-card">
+          <img src="cushion.png" />
+          <h3>cushion</h3>
+          <p class="price">Rp 131.000</p>
+          <div class="qty-steper">
+            <button type="button" class="qty-btn btn-min">-</button>
+            <input type="text" class="qty-value" value="1" readonly />
+            <button type="button" class="qty-btn btn-plus">+</button>
+          </div>
+          <button class="buy-btn" data-nama="cushion">BELI</button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h2>hubungi kami</h2>
+      <from class="kontak">
+        <label for="nama">name:</label>
+        <input type="text" id="name" placeholder="full name" />
+        <label for="email">email:</label>
+        <input type="text" id="email" placeholder="email" />
+        <label for="pesan">pesan:</label>
+        <textarea
+          type="text"
+          placeholder="masukkan pesan yang ingin disampaikan"
+        ></textarea>
+        <button class="btn-kirim">kirim pesan</button>
+      </from>
+      <h1>copyright by {bening}</h1>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
